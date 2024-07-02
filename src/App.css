@@ -1,0 +1,202 @@
+*,::before,::after{margin: 0; box-sizing: border-box;}
+a{ text-decoration: none;}
+img{ vertical-align: bottom;}
+label{ display: inline-block;}
+button{ cursor: pointer;}
+iframe{ border: none;}
+html{ scroll-behavior: smooth;}
+
+body{
+  font-family: sans-serif;
+}
+
+.container{
+    max-width: 1360px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+}
+
+.row [class^="col"]{ flex: 1 0 auto; padding: 0 15px;}
+
+.row .col-1{flex-basis: 8.33%; max-width: 8.33%;}    
+.row .col-2{flex-basis: 16.66%; max-width: 16.66%;}   
+.row .col-3{flex-basis: 25%; max-width: 25%;}
+.row .col-4{flex-basis: 33.33%; max-width: 33.33%;} 
+.row .col-5{flex-basis: 41.66%; max-width: 41.66%;}
+.row .col-6{flex-basis: 50%; max-width: 50%;}
+.row .col-7{flex-basis: 58.33%; max-width: 58.33%;}
+.row .col-8{flex-basis: 66.66%; max-width: 66.66%;}
+.row .col-9{flex-basis: 75%; max-width: 75%;}
+.row .col-10{flex-basis: 83.33%; max-width: 83.33%;}
+.row .col-11{flex-basis: 91.11%; max-width: 91.11%;}
+.row .col-12{flex-basis: 100%; max-width: 100%;}
+
+.user{ margin-top: 2rem;}
+.user label{ font-weight: bolder; font-size: 1.2rem;}
+.user span{ font-weight: 1.2rem;}
+
+h1{
+  margin-top: 30px;
+}
+
+
+.input{
+  width: 360px;
+  padding: 18px 30px;
+  background-color: #FFFFFF;
+  border: none;
+  border-right: none;
+  font-size: 1.2rem;
+  outline: none;
+  margin-top: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+}
+
+.button {
+  background-color: #FFFFFF;
+  border: 0;
+  vertical-align: bottom;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-weight: 600;
+  /* line-height: 1.25rem; */
+  padding: 16px 30px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  font-size: 1.2rem;
+  touch-action: manipulation;
+}
+
+.button-38:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button-38:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-38:focus-visible {
+  box-shadow: none;
+}
+
+.card_box{
+  border-radius: 10px;
+  width: 19rem;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #e7e6e6;
+}
+
+.img_box img:hover{ transform: scale(1.2); transition: 1s ease-in;}
+
+.img_box{
+  overflow: hidden;
+  
+}
+
+.button-47 {
+  align-items: center;
+  background: lightblue;
+  border: 0 solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(10, 10, 10, 0.1), 0 2px 4px -1px rgba( 10, 10, 0, 0.06);
+  box-sizing: border-box;
+  color: #1A202C;
+  display: inline-flex;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 56px;
+  justify-content: center;
+  line-height: 24px;
+  overflow-wrap: break-word;
+  padding: 2px 32px;
+  text-decoration: none;
+  width: auto;
+  border-radius: 8px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+}
+.button-47:hover{ background: rgb(139, 216, 242); letter-spacing: 1px; transition: 1s ease-out;}
+
+
+
+
+
+
+/* src/App.css */
+/* .App {
+    text-align: center;
+  } */
+  
+  /* src/components/SearchPage.css */
+  /* .search-page {
+    padding: 20px;
+  }
+  
+  .image-results {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-item {
+    margin: 10px;
+  } */
+  
+  /* src/components/CanvasPage.css */
+
+  .canvas-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  canvas {
+    border: 1px solid black;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+
+
+
+
+  /* .search-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-results {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-item {
+    margin: 10px;
+    text-align: center;
+  } */
+  
+  
+
+  
